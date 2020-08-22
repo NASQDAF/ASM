@@ -1,3 +1,8 @@
+Ascii Adjust after Addition
+
+Purpose: correcting the unpacked result of adding two one-bit unpacked BCD numbers.
+
+Work algorithm:
 1) analyze the value of the low nibble of the al register and the value of the af flag;
 2) if (value of the lower nibble of the register al > 9) or (AF = 1), then perform the following actions:
 	2.a)increase the al value by 6;
