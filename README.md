@@ -3,8 +3,8 @@
  
 A selection for describing the state of flags after executing some command from the table reflecting the structure of the eflags register:
 
-	31 	18 	17 	16 	15 	14 	1312  11  10  09  08  07  06  05  04  03  02  01  00	
-	0 	0 	VM 	RF 	0 	NT 	IOPL  OF  DF  IF  TF  SF  ZF  0   AF  0   PF  1   CF
+	31  18  17  16  15  14  1312  11  10  09  08  07  06  05  04  03  02  01  00	
+	0   0   VM  RF  0   NT  IOPL  OF  DF  IF  TF  SF  ZF  0   AF  0   PF  1   CF
 	
 The bottom line of this table lists the flag values after the command is executed. In this case, the following designations are used:
 
