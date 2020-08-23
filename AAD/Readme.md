@@ -10,6 +10,7 @@ Work algorithm:
 3) clear register ah.
 
 State of flags after command execution:
+
 	11 	07 	06 	04 	02 	00 
 	OF 	SF 	ZF 	AF 	PF 	CF 
 	? 	r  	r  	r  	r  	? 
