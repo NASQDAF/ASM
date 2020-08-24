@@ -1,4 +1,4 @@
-# ASMAlgorithms
+# ASM
  ASM Algorithms
  
 A selection for describing the state of flags after executing some command from the table reflecting the structure of the eflags register:
