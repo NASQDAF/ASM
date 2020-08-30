@@ -28,52 +28,52 @@ State of flags after command execution:
 Application (except jcxz / jecxz):
 
 	Command 	State of 	Jump condition
-				chkd flags	
+			chkd flags	
 	
-	JA 	 		CF 	= 	0 	
-			and ZF 	= 	0 	if 	higher
+	JA 		CF 	= 	0 	
+		    and ZF 	= 	0 	if 	higher
 	JAE  		CF 	= 	0 	if 	higher or equal
-	JB 	 		CF 	= 	1 	if 	lower
+	JB 	 	CF 	= 	1 	if 	lower
 	JBE  		CF 	= 	1 	
-			 or ZF 	= 	1	if 	lower or equal
-	JC 	 		CF 	= 	1 	if 	carry
-	JE 	 		ZF 	= 	1 	if 	equal
-	JZ 	 		ZF 	= 	1 	if 	0
-	JG 	 		ZF 	= 	0 	
-			and SF 	= 	OF 	if 	greater
+		    or  ZF 	= 	1	if 	lower or equal
+	JC 	 	CF 	= 	1 	if 	carry
+	JE 	 	ZF 	= 	1 	if 	equal
+	JZ 	 	ZF 	= 	1 	if 	0
+	JG 	 	ZF 	= 	0 	
+		    and SF 	= 	OF 	if 	greater
 	JGE  		SF 	= 	OF 	if 	greater or equal
-	JL 	 		SF 	<> 	OF 	if 	less
+	JL 	 	SF 	<> 	OF 	if 	less
 	JLE  		ZF 	= 	1 	
-			or	SF 	<> 	OF 	if 	less or equal
+		    or  SF 	<> 	OF 	if 	less or equal
 	JNA  		CF 	= 	1 	
-			and ZF		= 	1 	if 	not higher
+		    and ZF	= 	1 	if 	not higher
 	JNAE 		CF 	= 	1 	if not higher or equal
 	JNB  		CF 	= 	0 	if not lower
 	JNBE 		CF 	= 	0 	
-			and ZF 	= 	0 	if not lower or equal
+		    and ZF 	= 	0 	if not lower or equal
 	JNC  		CF 	= 	0 	if no carry
 	JNE  		ZF 	= 	0 	if not equal
 	JNG  		ZF 	= 	1 	
-			or  SF 	<> 	OF 	if not more
+		    or  SF 	<> 	OF 	if not more
 	JNGE 		SF 	<> 	OF 	if not greater than or equal
 	JNL  		SF 	= 	OF 	if not less
 	JNLE 		ZF 	= 	0 	
-			and SF 	= 	OF 	if not less than or equal
+		    and SF 	= 	OF 	if not less than or equal
 	JNO  		OF 	= 	0 	if no overflow
 	JNP  		PF 	= 	0 	if the number of single bits of the result is odd (odd parity)
 	JNS  		SF 	= 	0 	if plus sign (sign (high) bit of result is 0)
 	JNZ  		ZF 	= 	0 	if there is no zero
-	JO 	 		OF 	= 	1 	if overflow
-	JP 	 		PF 	= 	1 	if the number of single bits of the result is even (even parity)
+	JO 	 	OF 	= 	1 	if overflow
+	JP 	 	PF 	= 	1 	if the number of single bits of the result is even (even parity)
 	JPE  		PF 	= 	1 	is the same as JP, i.e. even parity
 	JPO  		PF 	= 	0 	same as JNP
-	JS 	 		SF	= 	1 	if 	minus sign (sign (most significant) bit of result is 1)
-	JZ 	 		ZF 	= 	1 	if 	zero
+	JS 	 	SF	= 	1 	if 	minus sign (sign (most significant) bit of result is 1)
+	JZ 	 	ZF 	= 	1 	if 	zero
 
 Jcxz / jecxz application:
 
 	Command 	Status of flags 	Jump condition
-				in eflags / flags
+			in eflags / flags
 				
 	JCXZ 		has no effect 		if register CX = 0
 	JECXZ 		has no effect 		if ECX register = 0
