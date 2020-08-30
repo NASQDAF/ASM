@@ -1,0 +1,6 @@
+...
+        jcxz m1	;bypass loop if cx = 0
+cycl:
+;some cycle
+        loop cycl
+m1: ...
