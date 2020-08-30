@@ -27,7 +27,7 @@ State of flags after command execution:
 
 Application (except jcxz / jecxz):
 
-	Command 	State of 	Jump condition
+	Command 	State of 		Jump condition
 			chkd flags	
 	
 	JA 		CF 	= 	0 	
