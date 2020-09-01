@@ -8,7 +8,7 @@ Work algorithm:
     2) depending on the state of the df flag, change the value of the esi/si registers:
         2.a) if df = 0, then increase the contents of these registers by the length of the structural element of the sequence;
         2.b) if df = 1, then decrease the contents of these registers by the length of the structural element of the sequence;
-    3)if there is a prefix, execute the deiqrbh defined by it see the [rep/repe/repz/repne/repnz](https://github.com/NASQDAF/ASM/blob/master/REP%2C%20REPE%2C%20REPZ%2C%20REPNE%2C%20REPNZ/Readme.md) command.
+    3)if there is a prefix, execute the deiqrbh defined by it (see the rep/repe/repz/repne/repnz command.)
 [REP/REPE/REPZ/REPNE/REPNZ](https://github.com/NASQDAF/ASM/blob/master/REP%2C%20REPE%2C%20REPZ%2C%20REPNE%2C%20REPNZ/Readme.md)
 
 State of flags after command execution:
