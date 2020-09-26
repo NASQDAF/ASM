@@ -8,6 +8,7 @@ Work algorithm:
 	2) increase the esp stack pointer by 2.
 
 State of flags after command execution:
+
 	14	1312	11	10	09	08	07	06	04	02	00
 	NT	IOPL	OF	DF	IF	TF	SF	ZF	AF	PF	CF
 	r	r   	r	r	r	r	r	r	r	r 	r
