@@ -1,0 +1,1 @@
+	inc	ax	;increase the value in ax by 1
